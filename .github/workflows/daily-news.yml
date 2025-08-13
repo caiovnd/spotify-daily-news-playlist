@@ -2,8 +2,8 @@ name: Daily News Playlist
 
 on:
   schedule:
-    # 09:00 UTC ≈ 06:00 BRT
-    - cron: "0 9 * * *"
+    # 10:00 UTC ≈ 07:00 BRT
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:
